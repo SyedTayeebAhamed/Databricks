@@ -36,5 +36,3 @@ This project implements a robust data engineering pipeline in Databricks for pro
 - Updated after each successful Silver → Gold run
 
 ---
-       .withColumn("fare_amount", col("fare_amount").cast("double"))
-       .withColumn("total_amount", col("total_amount").cast("double"))
