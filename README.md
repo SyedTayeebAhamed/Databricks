@@ -36,3 +36,10 @@ This project implements a robust data engineering pipeline in Databricks for pro
 - Updated after each successful Silver → Gold run
 
 ---
+## ⏰ Scheduler Trigger
+- The pipeline is automated with a **daily scheduler trigger** in Databricks Jobs.
+- Every 24 hours, the workflow runs:
+  1. Bronze ingestion
+  2. Silver cleaning and schema enforcement
+  3. Gold aggregation and dashboard refresh
+- Ensures data is always up-to-date for analytics and BI reporting.
